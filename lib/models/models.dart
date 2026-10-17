@@ -75,8 +75,6 @@ class Subject {
   final String name;
   final String slug;
   final String icon;
-  /// Stream/section the subject belongs to (science | humanities | business |
-  /// general | job | ...). '' when not applicable.
   final String stream;
   Subject({
     required this.id,
@@ -104,7 +102,6 @@ class Subject {
         'stream': stream,
       };
 }
-
 // ───────────────────────────── chapters ───────────────────────────────
 class Chapter {
   final String id;
@@ -154,7 +151,7 @@ class Question {
   final String examTag;
   final String difficultyLevel;
   final bool isPremium;
-  final String generatedBy; // Manual | Generator
+  final String generatedBy;
 
   Question({
     required this.id,
@@ -214,7 +211,6 @@ class Question {
         'is_premium': isPremium,
         'generated_by': generatedBy,
       };
-
   List<MapEntry<String, String>> get options => [
         MapEntry('A', optionA),
         MapEntry('B', optionB),
@@ -225,8 +221,6 @@ class Question {
 }
 
 // ───────────────────────────── users ──────────────────────────────────
-/// role: 'student' | 'teacher' | 'admin'
-/// studyFor: 'class' | 'job'  (mandatory onboarding choice)
 class AppUser {
   final String uid;
   final String name;
@@ -235,17 +229,18 @@ class AppUser {
   final String photoUrl;
   final String role;
   final bool isPremium;
-  final String? subscriptionEndDate; // premium_expires_at
-  final String premiumActivatedAt; // premium_activated_at
+  final String? subscriptionEndDate;
+  final String premiumActivatedAt;
   final String createdAt;
-  final bool isApproved; // teacher approval
+  final bool isApproved;
   final bool canDownloadPdf;
-  final String studyFor; // 'class' | 'job' | ''
-  final String studyLevel; // e.g. 'একাদশ-দ্বাদশ'
-  final String title; // teacher title
-  final String subjects; // teacher subjects (comma)
+  final String studyFor;
+  final String studyLevel;
+  final String title;
+  final String subjects;
   final String location;
-  final int intendedPlanMonths; // chosen subscription duration (1/2/3/6/9/12)
+  final int intendedPlanMonths;
+  final bool createdByAdmin;
 
   AppUser({
     required this.uid,
@@ -266,12 +261,12 @@ class AppUser {
     this.subjects = '',
     this.location = '',
     this.intendedPlanMonths = 0,
+    this.createdByAdmin = false,
   }) : createdAt = createdAt ?? DateTime.now().toIso8601String();
 
   bool get isAdmin => role == 'admin';
   bool get isTeacher => role == 'teacher';
 
-  /// True only when premium AND not expired (auto-revert logic).
   bool get hasActivePremium {
     if (!isPremium) return false;
     if (subscriptionEndDate == null || subscriptionEndDate!.isEmpty) return true;
@@ -299,6 +294,7 @@ class AppUser {
         subjects: m['subjects'] ?? '',
         location: m['location'] ?? '',
         intendedPlanMonths: m['intended_plan_months'] ?? 0,
+        createdByAdmin: m['created_by_admin'] ?? false,
       );
 
   factory AppUser.guest() =>
@@ -323,10 +319,8 @@ class AppUser {
         'subjects': subjects,
         'location': location,
         'intended_plan_months': intendedPlanMonths,
+        'created_by_admin': createdByAdmin,
       };
-
-  /// Returns a copy with premium switched OFF and the expiry cleared.
-  /// (copyWith cannot null a field, so this explicit helper is used.)
   AppUser revokePremium() => AppUser(
         uid: uid,
         name: name,
@@ -346,9 +340,9 @@ class AppUser {
         subjects: subjects,
         location: location,
         intendedPlanMonths: intendedPlanMonths,
+        createdByAdmin: createdByAdmin,
       );
 
-  /// Remaining whole days of the active subscription (0 when none/expired).
   int get premiumDaysLeft {
     final s = subscriptionEndDate;
     if (s == null || s.isEmpty) return 0;
@@ -374,6 +368,7 @@ class AppUser {
     String? subjects,
     String? location,
     int? intendedPlanMonths,
+    bool? createdByAdmin,
   }) =>
       AppUser(
         uid: uid,
@@ -394,6 +389,7 @@ class AppUser {
         subjects: subjects ?? this.subjects,
         location: location ?? this.location,
         intendedPlanMonths: intendedPlanMonths ?? this.intendedPlanMonths,
+        createdByAdmin: createdByAdmin ?? this.createdByAdmin,
       );
 }
 
@@ -409,7 +405,7 @@ class Teacher {
   final String email;
   final String location;
   final String photoUrl;
-  final bool isApproved; // public visibility gate
+  final bool isApproved;
   final String linkedUserId;
   final String createdAt;
 
@@ -444,7 +440,6 @@ class Teacher {
         linkedUserId: m['linked_user_id'] ?? '',
         createdAt: m['created_at'],
       );
-
   Map<String, dynamic> toMap() => {
         'id': id,
         'name': name,
@@ -494,16 +489,16 @@ class Teacher {
 class Ebook {
   final String id;
   final String title;
-  final String author; // teacher name
-  final String ownerTeacherId; // who uploaded
+  final String author;
+  final String ownerTeacherId;
   final String description;
   final String coverColor;
   final int pages;
-  final double price; // 0 = free
+  final double price;
   final bool isPremium;
-  final bool requiresPayment; // admin toggled
-  final String externalUrl; // cloud / drive link
-  final String fileType; // pdf | doc | other
+  final bool requiresPayment;
+  final String externalUrl;
+  final String fileType;
   final String categoryId;
   final String subCategoryId;
   final String subjectId;
@@ -597,9 +592,7 @@ class Ebook {
         createdAt: createdAt,
       );
 }
-
 // ───────────────────────────── purchases / access requests ────────────
-/// status: 'pending' | 'granted' | 'denied'
 class Purchase {
   final String id;
   final String userId;
@@ -608,7 +601,7 @@ class Purchase {
   final bool canDownloadPdf;
   final String requestedAt;
   final String decidedAt;
-  final String ownerTeacherId; // approver
+  final String ownerTeacherId;
 
   Purchase({
     required this.id,
@@ -681,8 +674,6 @@ class ChatMessage {
       };
 }
 
-/// Private thread between a student and a specific teacher.
-/// Visible ONLY to the two parties + admin.
 class QuestionThread {
   final String id;
   final String studentId;
@@ -723,7 +714,7 @@ class QuestionThread {
       };
 }
 
-// ───────────────────────────── announcements (popup notices) ──────────
+// ───────────────────────────── announcements ──────────────────────────
 class Announcement {
   final String id;
   final String title;
@@ -755,20 +746,18 @@ class Announcement {
         'is_active': isActive,
       };
 }
-
 // ───────────────────────────── video_classes ──────────────────────────
-/// A published video class (YouTube metadata only — no video files stored).
 class VideoClass {
   final String id;
   final String title;
-  final String videoId; // parsed YouTube id
-  final String url; // original link
+  final String videoId;
+  final String url;
   final String categoryId;
-  final String classId; // target class/batch
+  final String classId;
   final String className;
   final String subjectId;
   final String subjectName;
-  final String chapterId; // optional: attach a video to a chapter
+  final String chapterId;
   final String chapterName;
   final String description;
   final bool isPremium;
@@ -866,7 +855,6 @@ class VideoClass {
 }
 
 // ───────────────────────────── subscription_plans ─────────────────────
-/// Dynamic plan pricing — admin edits prices in Firestore, no app update.
 class SubscriptionPlan {
   final String id;
   final int months;
@@ -906,7 +894,6 @@ class SubscriptionPlan {
         'is_active': isActive,
       };
 }
-
 // ───────────────────────────── audit_logs ─────────────────────────────
 class AuditLog {
   final String id;
@@ -945,23 +932,19 @@ class AuditLog {
 }
 
 // ───────────────────────── study_resources ────────────────────────────
-/// A study resource published by the admin under the NCTB / Job-Prep
-/// hierarchy: notes, lecture sheets, suggestions or guides.
-/// type: 'note' | 'lecture' | 'suggestion' | 'guide'
 class StudyResource {
   final String id;
   final String title;
-  final String type; // note | lecture | suggestion | guide
+  final String type;
   final String description;
-  final String fileUrl; // public document link (Drive/URL)
-  final String fileType; // pdf | doc | other
-  final String externalUrl; // optional extra link
+  final String fileUrl;
+  final String fileType;
+  final String externalUrl;
   final bool isPremium;
-  // Taxonomy
   final String categoryId;
-  final String subCategoryId; // class / batch id
+  final String subCategoryId;
   final String subCategoryName;
-  final String streamKey; // science | humanities | business | ...
+  final String streamKey;
   final String subjectId;
   final String subjectName;
   final String chapterId;
