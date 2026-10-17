@@ -1,0 +1,54 @@
+name: epscience
+description: "E&P Science — Academic & Admission Care: MCQ practice, smart tutor, teacher Q&A and a secure external e-book library."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State management
+  provider: 6.1.5+1
+
+  # Local & web-safe persistence
+  shared_preferences: 2.5.3
+  hive: 2.2.3
+  hive_flutter: 1.1.0
+
+  # Networking (Gemini API / Firebase REST)
+  http: 1.5.0
+
+  # Utilities
+  intl: ^0.19.0
+  url_launcher: ^6.3.0
+
+  # Media / external document rendering
+  image_picker: ^1.1.2
+  webview_flutter: 4.13.0
+
+  # Charts (admin analytics)
+  fl_chart: ^0.69.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/data/
+    - assets/images/
+
+  fonts:
+    - family: NotoBengali
+      fonts:
+        - asset: assets/fonts/NotoSansBengali-Regular.ttf
+        - asset: assets/fonts/NotoSansBengali-Bold.ttf
+          weight: 700

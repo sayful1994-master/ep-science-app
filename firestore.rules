@@ -1,0 +1,199 @@
+rules_version = '2';
+
+// ═══════════════════════════════════════════════════════════════════════════
+// E&P Science — Firestore Security Rules  (complete, all collections)
+// ───────────────────────────────────────────────────────────────────────────
+// Deploy:  Firebase Console → Firestore Database → Rules → paste → Publish
+//      OR:  firebase deploy --only firestore:rules
+//
+// Roles live on the user document: role ∈ { 'admin', 'teacher', 'student' }.
+// The two primary administrators (both role == 'admin', identical full powers):
+//   1) e&pscience@learning.com   (built-in institute admin)
+//   2) SAYFUL                    (primary administrator / app owner)
+//
+// Model:
+//   • ADMIN      → full read + write on EVERY collection.
+//   • TEACHER    → read everything; write learning content (books, banks,
+//                  resources, questions, ebooks) and moderate.
+//   • SIGNED-IN  → read the catalogue/content; create & manage their own docs
+//                  (profile, comments, purchases, threads, notifications).
+//   • PUBLIC     → read-only catalogue (curriculum, plans, toggles, meta…).
+// ═══════════════════════════════════════════════════════════════════════════
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ─────────────────────────── Helpers ───────────────────────────
+    function signedIn() {
+      return request.auth != null;
+    }
+    function userDoc() {
+      return get(/databases/$(database)/documents/users/$(request.auth.uid)).data;
+    }
+    function role() {
+      return signedIn() ? userDoc().role : 'guest';
+    }
+    function isAdmin() {
+      return signedIn() && role() == 'admin';
+    }
+    function isTeacher() {
+      return signedIn() && role() == 'teacher';
+    }
+    function isStaff() {
+      return isAdmin() || isTeacher();
+    }
+    function isOwner(uid) {
+      return signedIn() && request.auth.uid == uid;
+    }
+    // Owner of a document identified by its `user_id` field.
+    function isDocOwner() {
+      return signedIn() && resource.data.user_id == request.auth.uid;
+    }
+
+    // ══════════════════ PUBLIC CATALOGUE (read all / write admin) ═════════════
+    match /curriculum/{doc} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+    match /job_preparation/{doc} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+    // Alias kept for the short "job_prep" naming used by some clients.
+    match /job_prep/{doc} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+    match /meta/{doc} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+    match /categories/{doc} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+    match /subjects/{doc} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+    match /chapters/{doc} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+    match /announcements/{doc} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // ══════════════════ LEARNING CONTENT (read signed-in / write staff) ═══════
+    // Books / সহায়ক বই
+    match /books/{doc} {
+      allow read: if signedIn();
+      allow write: if isStaff();
+    }
+    // Question banks (MCQ + CQ)
+    match /question_banks/{doc} {
+      allow read: if signedIn();
+      allow write: if isStaff();
+    }
+    // Study resources (notes, lectures, suggestions, guides)
+    match /study_resources/{doc} {
+      allow read: if signedIn();
+      allow write: if isStaff();
+    }
+    // Individual MCQ / CQ questions
+    match /questions/{doc} {
+      allow read: if signedIn();
+      allow write: if isStaff();
+    }
+    // Video classes — public read (locked player handles premium), admin publish
+    match /video_classes/{doc} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+    // E-books — signed-in read, staff manage
+    match /ebooks/{doc} {
+      allow read: if signedIn();
+      allow write: if isStaff();
+    }
+
+    // ══════════════════════════ USERS ═════════════════════════════════════════
+    match /users/{uid} {
+      allow read: if isOwner(uid) || isStaff();
+      allow create: if isOwner(uid) || isAdmin();
+      allow update: if isOwner(uid) || isAdmin();
+      allow delete: if isAdmin();
+    }
+
+    // ══════════════════════════ SUBSCRIPTION PLANS ════════════════════════════
+    // Public read (pricing shown on the premium screen); admin edits prices.
+    match /subscription_plans/{doc} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // ══════════════════════ APP CONTROLS / FEATURE TOGGLES ════════════════════
+    // Public read so clients can honour toggles; admin writes.
+    match /app_controls/{doc} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+    // Alias kept for the "app_settings" naming used by the current client.
+    match /app_settings/{doc} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    // ══════════════════════════ COMMENTS ══════════════════════════════════════
+    // Anyone may read; signed-in users post; authors & admin may edit/delete.
+    match /comments/{doc} {
+      allow read: if true;
+      allow create: if signedIn()
+                    && request.resource.data.user_id == request.auth.uid;
+      allow update, delete: if isAdmin() || isDocOwner();
+    }
+
+    // ══════════════════════════ NOTIFICATIONS ════════════════════════════════
+    // Admin broadcasts; a user may read + mark their own as read.
+    match /notifications/{doc} {
+      allow read: if signedIn();
+      allow create, delete: if isAdmin();
+      allow update: if isAdmin() || isDocOwner();
+    }
+
+    // ══════════════════════════ ADMIN ACCOUNTS ════════════════════════════════
+    match /admin_accounts/{doc} {
+      allow read, write: if isAdmin();
+    }
+
+    // ══════════════════ ACCESS REQUESTS / PURCHASES ═══════════════════════════
+    match /purchases/{doc} {
+      allow read: if isStaff() || isDocOwner();
+      allow create: if signedIn();
+      allow update, delete: if isStaff();
+    }
+
+    // ══════════════════════ PRIVATE Q&A THREADS & MESSAGES ════════════════════
+    match /threads/{doc} {
+      allow read: if isStaff() || isDocOwner();
+      allow create: if signedIn();
+      allow update: if isStaff() || isDocOwner();
+      allow delete: if isAdmin();
+    }
+    match /messages/{doc} {
+      allow read: if signedIn();
+      allow create: if signedIn();
+      allow update, delete: if isAdmin();
+    }
+
+    // ══════════════════════════ TEACHERS ══════════════════════════════════════
+    match /teachers/{doc} {
+      allow read: if true;
+      allow create, update, delete: if isAdmin();
+    }
+
+    // ══════════════════════════ AUDIT LOGS ════════════════════════════════════
+    match /audit_logs/{doc} {
+      allow read, write: if isAdmin();
+    }
+  }
+}
