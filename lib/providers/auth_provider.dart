@@ -1,9 +1,11 @@
 import 'package:flutter/foundation.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+
 import '../config/app_config.dart';
 import '../models/models.dart';
 import '../services/local_db.dart';
 
+/// E&P Science — authentication + access-control state.
 class AuthProvider extends ChangeNotifier {
   final LocalDb _db = LocalDb.instance;
   final FirebaseAuth _auth = FirebaseAuth.instance;
@@ -23,8 +25,31 @@ class AuthProvider extends ChangeNotifier {
   bool get busy => _busy;
   String? get error => _error;
 
+  /// True when a signed-in user still needs to pick Class / Job (mandatory).
   bool get needsOnboarding =>
       isLoggedIn && !isAdmin && (_user?.studyFor.isEmpty ?? true);
+
+  /// Access-control: guest → previews only; free → chapters 1 & 2;
+  /// premium → everything.
+  bool canAccessChapter(int chapterIndex, {required bool questionPremium}) {
+    if (isPremium) return true;
+    if (_isGuest) return false;
+    if (chapterIndex < AppConfig.freeChapterLimit) return true;
+    return false;
+  }
+
+  bool canAccessQuestion(Question q, int chapterIndex) {
+    if (isPremium) return true;
+    if (_isGuest) return false;
+    return !q.isPremium && chapterIndex < AppConfig.freeChapterLimit;
+  }
+
+  void continueAsGuest() {
+    _isGuest = true;
+    _user = AppUser.guest();
+    _error = null;
+    notifyListeners();
+  }
 
   /// ১. লগইন হ্যান্ডলার (ফায়ারবেস + অ্যাডমিন ম্যানুয়াল অ্যাকাউন্ট + ভেরিফিকেশন চেক)
   Future<bool> login(String email, String password) async {
@@ -218,6 +243,58 @@ class AuthProvider extends ChangeNotifier {
     return false;
   }
 
+  /// Mandatory onboarding: class / job selection (+ optional plan duration).
+  Future<void> completeOnboarding({
+    required String studyFor, // 'class' | 'job'
+    required String studyLevel,
+    int intendedPlanMonths = 0,
+  }) async {
+    if (_user == null) return;
+    final updated = _user!.copyWith(
+      studyFor: studyFor,
+      studyLevel: studyLevel,
+      intendedPlanMonths: intendedPlanMonths,
+    );
+    _user = updated;
+    await _db.upsertUser(updated);
+    notifyListeners();
+  }
+
+  /// Profile edits (name / phone / photoUrl).
+  Future<void> updateProfile({
+    String? name,
+    String? phone,
+    String? photoUrl,
+  }) async {
+    if (_user == null) return;
+    final updated =
+        _user!.copyWith(name: name, phone: phone, photoUrl: photoUrl);
+    _user = updated;
+    await _db.upsertUser(updated);
+    
+    // Keep linked teacher profile in sync if applicable
+    final linked =
+        _db.teachers.where((t) => t.linkedUserId == updated.uid).firstOrNull;
+    if (linked != null) {
+      await _db.upsertTeacher(
+        linked.copyWith(
+          name: updated.name,
+          phone: updated.phone,
+          photoUrl: updated.photoUrl,
+        ),
+      );
+    }
+    notifyListeners();
+  }
+
+  Future<void> logout() async {
+    await _auth.signOut();
+    _user = null;
+    _isGuest = false;
+    _error = null;
+    notifyListeners();
+  }
+
   void _setBusy(bool v) {
     _busy = v;
     notifyListeners();
@@ -229,4 +306,17 @@ class AuthProvider extends ChangeNotifier {
     }
     return u;
   }
+
+  /// Refresh the signed-in profile.
+  Future<void> refresh() async {
+    if (_user == null) return;
+    final fresh = _db.userById(_user!.uid) ?? _user;
+    _user = _revertIfExpired(fresh!);
+    await _db.upsertUser(_user!);
+    notifyListeners();
+  }
+}
+
+extension _FirstOrNull<E> on Iterable<E> {
+  E? get firstOrNull => isEmpty ? null : first;
 }
