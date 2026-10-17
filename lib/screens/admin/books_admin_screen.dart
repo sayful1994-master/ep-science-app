@@ -202,7 +202,9 @@ class _BooksAdminScreenState extends State<BooksAdminScreen> {
                     '“${b.title}” মুছে ফেলতে চান?',
                   );
                   if (!context.mounted) return;
-                  if (ok) await data.deleteEbook(b.id);
+                  if (ok) {
+                    await data.deleteEbook(b.id);
+                  }
                 },
                 icon: const Icon(
                   Icons.delete_outline,
@@ -561,6 +563,7 @@ class _BookEditorState extends State<_BookEditor> {
         subCategoryId == null ||
         _title.text.trim().isEmpty ||
         _url.text.trim().isEmpty) {
+      if (!mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
           content: Text('ক্যাটাগরি, ক্লাস, নাম ও লিংক অবশ্যই দিতে হবে'),
