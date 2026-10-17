@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1072521588353",
+    "project_id": "e-p-science",
+    "storage_bucket": "e-p-science.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072521588353:android:9436ee21b80a5b4c13e780",
+        "android_client_info": {
+          "package_name": "com.epscience.education"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072521588353-gs3u6uvvdml2sac56boio3f975dq76n6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD11E9qZTY0i8qKVYAFlsoKDvx-eAjUSg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072521588353-gs3u6uvvdml2sac56boio3f975dq76n6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
