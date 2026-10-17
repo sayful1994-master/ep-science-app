@@ -1,0 +1,86 @@
+{
+  "schema": {
+    "version": 1,
+    "description": "E&P Science academic catalogue — NCTB Class 6-12 + Job Preparation.",
+    "collections": {
+      "curriculum": "Taxonomy: classes -> sections(streams) -> subjects -> papers.",
+      "job_preparation": "Taxonomy: job categories -> subjects -> topics.",
+      "books": {
+        "purpose": "Text books / সহায়ক বই, one doc per subject (or paper).",
+        "fields": [
+          "id",
+          "title",
+          "title_en",
+          "author",
+          "publisher",
+          "edition",
+          "cover_url",
+          "pdf_url",
+          "external_url",
+          "is_premium",
+          "status(draft|published)",
+          "order",
+          "class_id",
+          "class_name",
+          "class_name_en",
+          "class_level",
+          "section_id",
+          "section_name",
+          "section_name_en",
+          "stream_key",
+          "subject_id",
+          "subject_name",
+          "subject_name_en",
+          "is_compulsory",
+          "paper_id",
+          "paper_name",
+          "paper_name_en",
+          "paper_no"
+        ]
+      },
+      "question_banks": {
+        "purpose": "MCQ + CQ question banks per subject/paper.",
+        "fields": [
+          "id",
+          "title",
+          "types[mcq,cq,board,admission]",
+          "chapters",
+          "mcq_count",
+          "cq_count",
+          "is_premium",
+          "status(draft|published)",
+          "order",
+          "class_id",
+          "section_id",
+          "subject_id",
+          "paper_id"
+        ]
+      },
+      "study_resources": {
+        "purpose": "Notes, lectures, suggestions & guides per subject/paper.",
+        "fields": [
+          "id",
+          "title",
+          "resource_type(note|lecture|suggestion|guide)",
+          "file_url",
+          "video_url",
+          "external_url",
+          "is_premium",
+          "status(draft|published)",
+          "order",
+          "class_id",
+          "section_id",
+          "subject_id",
+          "paper_id"
+        ]
+      }
+    }
+  },
+  "counts": {
+    "classes": 9,
+    "job_categories": 4,
+    "books": 245,
+    "question_banks": 245,
+    "study_resources": 245
+  }
+}

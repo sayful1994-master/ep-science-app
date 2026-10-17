@@ -1,0 +1,91 @@
+{
+  "admin_accounts": [
+    {
+      "login_id": "e&pscience@learning.com",
+      "email": "e&pscience@learning.com",
+      "password": "e&pscience@2026",
+      "name": "E&P Science Admin",
+      "role": "admin",
+      "permissions": "all",
+      "is_primary": false
+    },
+    {
+      "login_id": "SAYFUL",
+      "email": "SAYFUL",
+      "password": "Janina@1996",
+      "name": "Sayful Islam",
+      "role": "admin",
+      "permissions": "all",
+      "is_primary": true
+    }
+  ],
+  "subscription_plans": [
+    {
+      "id": "plan_1m",
+      "months": 1,
+      "price": 500,
+      "label_bn": "১ মাস",
+      "label_en": "1 Month",
+      "days": 30,
+      "is_active": true
+    },
+    {
+      "id": "plan_2m",
+      "months": 2,
+      "price": 900,
+      "label_bn": "২ মাস",
+      "label_en": "2 Months",
+      "days": 60,
+      "is_active": true
+    },
+    {
+      "id": "plan_3m",
+      "months": 3,
+      "price": 1200,
+      "label_bn": "৩ মাস",
+      "label_en": "3 Months",
+      "days": 90,
+      "is_active": true
+    },
+    {
+      "id": "plan_6m",
+      "months": 6,
+      "price": 2200,
+      "label_bn": "৬ মাস",
+      "label_en": "6 Months",
+      "days": 180,
+      "is_active": true
+    },
+    {
+      "id": "plan_9m",
+      "months": 9,
+      "price": 3000,
+      "label_bn": "৯ মাস",
+      "label_en": "9 Months",
+      "days": 270,
+      "is_active": true
+    },
+    {
+      "id": "plan_12m",
+      "months": 12,
+      "price": 3800,
+      "label_bn": "১ বছর",
+      "label_en": "1 Year",
+      "days": 365,
+      "is_active": true
+    }
+  ],
+  "app_settings": {
+    "features": {
+      "smart_generator_enabled": true,
+      "video_classes_enabled": true,
+      "ebooks_enabled": true,
+      "announcements_enabled": true
+    },
+    "payment": {
+      "bkash_number": "01627444526",
+      "whatsapp1": "8801627444526",
+      "whatsapp2": "8801676714139"
+    }
+  }
+}

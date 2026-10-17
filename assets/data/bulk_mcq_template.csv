@@ -1,0 +1,11 @@
+question_text,option_a,option_b,option_c,option_d,option_e,correct_answer,explanation,exam_tag,difficulty_level,is_premium,generated_by
+"Which organization maintains the HS Code used in international trade?","WTO","WCO (World Customs Organization)","IMF","UNCTAD","","B","The Harmonized System is developed by the WCO.","Commercial Bible","Easy","FALSE","Manual"
+"Under Incoterms 2020, at which point does risk transfer to the buyer under FOB?","At destination","On board the vessel at the port of shipment","At seller warehouse","After import clearance","","B","FOB: risk passes once goods are on board the vessel.","Commercial Bible","Medium","FALSE","Manual"
+"In an L/C, which party undertakes to pay the exporter?","Importer","Issuing Bank","Shipping Line","Customs","","B","The issuing bank gives the irrevocable payment undertaking.","Commercial Bible","Medium","TRUE","Manual"
+"Which Incoterm places maximum obligation on the seller?","EXW","FOB","DDP","CIF","","C","DDP includes all costs and import duties to the destination.","Commercial Bible","Hard","TRUE","Manual"
+"Which is the 'master document' of foreign trade?","Invoice","Bill of Lading","Packing List","Bill of Exchange","","B","The B/L is a document of title, receipt and contract of carriage.","Commercial Bible","Medium","TRUE","Manual"
+"সন্ধি শব্দের অর্থ কী?","বিচ্ছেদ","মিলন","বিন্যাস","শৃঙ্খলা","","B","সন্ধি অর্থ মিলন।","45th BCS","Easy","FALSE","Manual"
+"'অগ্নিবীণা' কাব্যগ্রন্থের রচয়িতা কে?","রবীন্দ্রনাথ ঠাকুর","কাজী নজরুল ইসলাম","জীবনানন্দ দাশ","সুকুমার রায়","","B","নজরুল ইসলামের প্রথম কাব্যগ্রন্থ অগ্নিবীণা।","45th BCS","Easy","FALSE","Manual"
+"বাংলাদেশের সংবিধান কার্যকর হয় কোন তারিখে?","১৬ ডিসেম্বর ১৯৭২","১৬ ডিসেম্বর ১৯৭১","২৬ মার্চ ১৯৭২","১৭ এপ্রিল ১৯৭১","","A","১৬ ডিসেম্বর ১৯৭২ থেকে কার্যকর।","General Knowledge","Medium","FALSE","Manual"
+"A trader marks up 40% then gives 25% discount. Net profit %?","5%","10%","15%","12.5%","","A","Cost 100 -> MP 140 -> SP 105 -> profit 5%.","Bank Math","Hard","TRUE","Manual"
+"Children's primary agent of socialization is:","School","Family","Playground","Religious institution","","B","Family is the first socialization agent.","Primary Teacher","Easy","FALSE","Manual"

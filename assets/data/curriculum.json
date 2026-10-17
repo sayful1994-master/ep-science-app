@@ -1,0 +1,2176 @@
+{
+  "classes": [
+    {
+      "id": "cls_6",
+      "name": "ষষ্ঠ শ্রেণি",
+      "name_en": "Class 6",
+      "level": "Junior Secondary",
+      "order": 1,
+      "sections": [],
+      "subjects": [
+        {
+          "name": "বাংলা",
+          "name_en": "Bangla",
+          "is_compulsory": true,
+          "papers": []
+        },
+        {
+          "name": "ইংরেজি",
+          "name_en": "English",
+          "is_compulsory": true,
+          "papers": []
+        },
+        {
+          "name": "গণিত",
+          "name_en": "Mathematics",
+          "is_compulsory": true,
+          "papers": []
+        },
+        {
+          "name": "বিজ্ঞান",
+          "name_en": "Science",
+          "is_compulsory": true,
+          "papers": []
+        },
+        {
+          "name": "ডিজিটাল প্রযুক্তি",
+          "name_en": "Digital Technology",
+          "is_compulsory": true,
+          "papers": []
+        },
+        {
+          "name": "ইতিহাস ও সামাজিক বিজ্ঞান",
+          "name_en": "History and Social Science",
+          "is_compulsory": true,
+          "papers": []
+        },
+        {
+          "name": "জীবন ও জীবিকা",
+          "name_en": "Life and Livelihood",
+          "is_compulsory": true,
+          "papers": []
+        },
+        {
+          "name": "স্বাস্থ্য সুরক্ষা",
+          "name_en": "Health Protection",
+          "is_compulsory": true,
+          "papers": []
+        },
+        {
+          "name": "ইসলাম শিক্ষা",
+          "name_en": "Islamic Education",
+          "is_compulsory": false,
+          "papers": []
+        },
+        {
+          "name": "হিন্দুধর্ম শিক্ষা",
+          "name_en": "Hindu Religious Education",
+          "is_compulsory": false,
+          "papers": []
+        },
+        {
+          "name": "খ্রিস্টধর্ম শিক্ষা",
+          "name_en": "Christian Religious Education",
+          "is_compulsory": false,
+          "papers": []
+        },
+        {
+          "name": "বৌদ্ধধর্ম শিক্ষা",
+          "name_en": "Buddhist Religious Education",
+          "is_compulsory": false,
+          "papers": []
+        },
+        {
+          "name": "শিল্প ও সংস্কৃতি",
+          "name_en": "Art and Culture",
+          "is_compulsory": true,
+          "papers": []
+        }
+      ]
+    },
+    {
+      "id": "cls_7",
+      "name": "সপ্তম শ্রেণি",
+      "name_en": "Class 7",
+      "level": "Junior Secondary",
+      "order": 2,
+      "sections": [],
+      "subjects": [
+        {
+          "name": "বাংলা",
+          "name_en": "Bangla",
+          "is_compulsory": true,
+          "papers": []
+        },
+        {
+          "name": "ইংরেজি",
+          "name_en": "English",
+          "is_compulsory": true,
+          "papers": []
+        },
+        {
+          "name": "গণিত",
+          "name_en": "Mathematics",
+          "is_compulsory": true,
+          "papers": []
+        },
+        {
+          "name": "বিজ্ঞান",
+          "name_en": "Science",
+          "is_compulsory": true,
+          "papers": []
+        },
+        {
+          "name": "ডিজিটাল প্রযুক্তি",
+          "name_en": "Digital Technology",
+          "is_compulsory": true,
+          "papers": []
+        },
+        {
+          "name": "ইতিহাস ও সামাজিক বিজ্ঞান",
+          "name_en": "History and Social Science",
+          "is_compulsory": true,
+          "papers": []
+        },
+        {
+          "name": "জীবন ও জীবিকা",
+          "name_en": "Life and Livelihood",
+          "is_compulsory": true,
+          "papers": []
+        },
+        {
+          "name": "স্বাস্থ্য সুরক্ষা",
+          "name_en": "Health Protection",
+          "is_compulsory": true,
+          "papers": []
+        },
+        {
+          "name": "ইসলাম শিক্ষা",
+          "name_en": "Islamic Education",
+          "is_compulsory": false,
+          "papers": []
+        },
+        {
+          "name": "হিন্দুধর্ম শিক্ষা",
+          "name_en": "Hindu Religious Education",
+          "is_compulsory": false,
+          "papers": []
+        },
+        {
+          "name": "খ্রিস্টধর্ম শিক্ষা",
+          "name_en": "Christian Religious Education",
+          "is_compulsory": false,
+          "papers": []
+        },
+        {
+          "name": "বৌদ্ধধর্ম শিক্ষা",
+          "name_en": "Buddhist Religious Education",
+          "is_compulsory": false,
+          "papers": []
+        },
+        {
+          "name": "শিল্প ও সংস্কৃতি",
+          "name_en": "Art and Culture",
+          "is_compulsory": true,
+          "papers": []
+        }
+      ]
+    },
+    {
+      "id": "cls_8",
+      "name": "অষ্টম শ্রেণি",
+      "name_en": "Class 8",
+      "level": "Junior Secondary",
+      "order": 3,
+      "sections": [],
+      "subjects": [
+        {
+          "name": "বাংলা",
+          "name_en": "Bangla",
+          "is_compulsory": true,
+          "papers": []
+        },
+        {
+          "name": "ইংরেজি",
+          "name_en": "English",
+          "is_compulsory": true,
+          "papers": []
+        },
+        {
+          "name": "গণিত",
+          "name_en": "Mathematics",
+          "is_compulsory": true,
+          "papers": []
+        },
+        {
+          "name": "বিজ্ঞান",
+          "name_en": "Science",
+          "is_compulsory": true,
+          "papers": []
+        },
+        {
+          "name": "ডিজিটাল প্রযুক্তি",
+          "name_en": "Digital Technology",
+          "is_compulsory": true,
+          "papers": []
+        },
+        {
+          "name": "ইতিহাস ও সামাজিক বিজ্ঞান",
+          "name_en": "History and Social Science",
+          "is_compulsory": true,
+          "papers": []
+        },
+        {
+          "name": "জীবন ও জীবিকা",
+          "name_en": "Life and Livelihood",
+          "is_compulsory": true,
+          "papers": []
+        },
+        {
+          "name": "স্বাস্থ্য সুরক্ষা",
+          "name_en": "Health Protection",
+          "is_compulsory": true,
+          "papers": []
+        },
+        {
+          "name": "ইসলাম শিক্ষা",
+          "name_en": "Islamic Education",
+          "is_compulsory": false,
+          "papers": []
+        },
+        {
+          "name": "হিন্দুধর্ম শিক্ষা",
+          "name_en": "Hindu Religious Education",
+          "is_compulsory": false,
+          "papers": []
+        },
+        {
+          "name": "খ্রিস্টধর্ম শিক্ষা",
+          "name_en": "Christian Religious Education",
+          "is_compulsory": false,
+          "papers": []
+        },
+        {
+          "name": "বৌদ্ধধর্ম শিক্ষা",
+          "name_en": "Buddhist Religious Education",
+          "is_compulsory": false,
+          "papers": []
+        },
+        {
+          "name": "শিল্প ও সংস্কৃতি",
+          "name_en": "Art and Culture",
+          "is_compulsory": true,
+          "papers": []
+        }
+      ]
+    },
+    {
+      "id": "cls_9",
+      "name": "নবম শ্রেণি",
+      "name_en": "Class 9",
+      "level": "SSC",
+      "order": 4,
+      "sections": [
+        {
+          "id": "sec_cls-9-science",
+          "name": "বিজ্ঞান",
+          "name_en": "Science",
+          "stream_key": "science",
+          "subjects": [
+            {
+              "name": "বাংলা",
+              "name_en": "Bangla",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "ইংরেজি",
+              "name_en": "English",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "গণিত",
+              "name_en": "Mathematics",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "তথ্য ও যোগাযোগ প্রযুক্তি",
+              "name_en": "ICT",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "বাংলাদেশ ও বিশ্বপরিচয়",
+              "name_en": "Bangladesh & Global Studies",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "ধর্ম ও নৈতিক শিক্ষা",
+              "name_en": "Religious & Moral Education",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "পদার্থবিজ্ঞান",
+              "name_en": "Physics",
+              "is_compulsory": false,
+              "papers": []
+            },
+            {
+              "name": "রসায়ন",
+              "name_en": "Chemistry",
+              "is_compulsory": false,
+              "papers": []
+            },
+            {
+              "name": "জীববিজ্ঞান",
+              "name_en": "Biology",
+              "is_compulsory": false,
+              "papers": []
+            },
+            {
+              "name": "উচ্চতর গণিত",
+              "name_en": "Higher Mathematics",
+              "is_compulsory": false,
+              "papers": []
+            }
+          ]
+        },
+        {
+          "id": "sec_cls-9-humanities",
+          "name": "মানবিক",
+          "name_en": "Humanities",
+          "stream_key": "humanities",
+          "subjects": [
+            {
+              "name": "বাংলা",
+              "name_en": "Bangla",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "ইংরেজি",
+              "name_en": "English",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "গণিত",
+              "name_en": "Mathematics",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "তথ্য ও যোগাযোগ প্রযুক্তি",
+              "name_en": "ICT",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "বাংলাদেশ ও বিশ্বপরিচয়",
+              "name_en": "Bangladesh & Global Studies",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "ধর্ম ও নৈতিক শিক্ষা",
+              "name_en": "Religious & Moral Education",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "বাংলাদেশের ইতিহাস ও বিশ্বসভ্যতা",
+              "name_en": "History of Bangladesh & World Civilization",
+              "is_compulsory": false,
+              "papers": []
+            },
+            {
+              "name": "ভূগোল ও পরিবেশ",
+              "name_en": "Geography and Environment",
+              "is_compulsory": false,
+              "papers": []
+            },
+            {
+              "name": "অর্থনীতি",
+              "name_en": "Economics",
+              "is_compulsory": false,
+              "papers": []
+            },
+            {
+              "name": "পৌরনীতি ও নাগরিকতা",
+              "name_en": "Civics and Citizenship",
+              "is_compulsory": false,
+              "papers": []
+            },
+            {
+              "name": "কৃষিশিক্ষা",
+              "name_en": "Agricultural Studies",
+              "is_compulsory": false,
+              "papers": []
+            },
+            {
+              "name": "গার্হস্থ্য বিজ্ঞান",
+              "name_en": "Home Science",
+              "is_compulsory": false,
+              "papers": []
+            }
+          ]
+        },
+        {
+          "id": "sec_cls-9-business",
+          "name": "ব্যবসায় শিক্ষা",
+          "name_en": "Business Studies",
+          "stream_key": "business",
+          "subjects": [
+            {
+              "name": "বাংলা",
+              "name_en": "Bangla",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "ইংরেজি",
+              "name_en": "English",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "গণিত",
+              "name_en": "Mathematics",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "তথ্য ও যোগাযোগ প্রযুক্তি",
+              "name_en": "ICT",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "বাংলাদেশ ও বিশ্বপরিচয়",
+              "name_en": "Bangladesh & Global Studies",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "ধর্ম ও নৈতিক শিক্ষা",
+              "name_en": "Religious & Moral Education",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "হিসাববিজ্ঞান",
+              "name_en": "Accounting",
+              "is_compulsory": false,
+              "papers": []
+            },
+            {
+              "name": "ব্যবসায় উদ্যোগ",
+              "name_en": "Business Entrepreneurship",
+              "is_compulsory": false,
+              "papers": []
+            },
+            {
+              "name": "ফিন্যান্স ও ব্যাংকিং",
+              "name_en": "Finance & Banking",
+              "is_compulsory": false,
+              "papers": []
+            },
+            {
+              "name": "কৃষিশিক্ষা",
+              "name_en": "Agricultural Studies",
+              "is_compulsory": false,
+              "papers": []
+            },
+            {
+              "name": "গার্হস্থ্য বিজ্ঞান",
+              "name_en": "Home Science",
+              "is_compulsory": false,
+              "papers": []
+            }
+          ]
+        }
+      ],
+      "subjects": []
+    },
+    {
+      "id": "cls_10",
+      "name": "দশম শ্রেণি",
+      "name_en": "Class 10",
+      "level": "SSC",
+      "order": 5,
+      "sections": [
+        {
+          "id": "sec_cls-10-science",
+          "name": "বিজ্ঞান",
+          "name_en": "Science",
+          "stream_key": "science",
+          "subjects": [
+            {
+              "name": "বাংলা",
+              "name_en": "Bangla",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "ইংরেজি",
+              "name_en": "English",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "গণিত",
+              "name_en": "Mathematics",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "তথ্য ও যোগাযোগ প্রযুক্তি",
+              "name_en": "ICT",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "বাংলাদেশ ও বিশ্বপরিচয়",
+              "name_en": "Bangladesh & Global Studies",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "ধর্ম ও নৈতিক শিক্ষা",
+              "name_en": "Religious & Moral Education",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "পদার্থবিজ্ঞান",
+              "name_en": "Physics",
+              "is_compulsory": false,
+              "papers": []
+            },
+            {
+              "name": "রসায়ন",
+              "name_en": "Chemistry",
+              "is_compulsory": false,
+              "papers": []
+            },
+            {
+              "name": "জীববিজ্ঞান",
+              "name_en": "Biology",
+              "is_compulsory": false,
+              "papers": []
+            },
+            {
+              "name": "উচ্চতর গণিত",
+              "name_en": "Higher Mathematics",
+              "is_compulsory": false,
+              "papers": []
+            }
+          ]
+        },
+        {
+          "id": "sec_cls-10-humanities",
+          "name": "মানবিক",
+          "name_en": "Humanities",
+          "stream_key": "humanities",
+          "subjects": [
+            {
+              "name": "বাংলা",
+              "name_en": "Bangla",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "ইংরেজি",
+              "name_en": "English",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "গণিত",
+              "name_en": "Mathematics",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "তথ্য ও যোগাযোগ প্রযুক্তি",
+              "name_en": "ICT",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "বাংলাদেশ ও বিশ্বপরিচয়",
+              "name_en": "Bangladesh & Global Studies",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "ধর্ম ও নৈতিক শিক্ষা",
+              "name_en": "Religious & Moral Education",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "বাংলাদেশের ইতিহাস ও বিশ্বসভ্যতা",
+              "name_en": "History of Bangladesh & World Civilization",
+              "is_compulsory": false,
+              "papers": []
+            },
+            {
+              "name": "ভূগোল ও পরিবেশ",
+              "name_en": "Geography and Environment",
+              "is_compulsory": false,
+              "papers": []
+            },
+            {
+              "name": "অর্থনীতি",
+              "name_en": "Economics",
+              "is_compulsory": false,
+              "papers": []
+            },
+            {
+              "name": "পৌরনীতি ও নাগরিকতা",
+              "name_en": "Civics and Citizenship",
+              "is_compulsory": false,
+              "papers": []
+            },
+            {
+              "name": "কৃষিশিক্ষা",
+              "name_en": "Agricultural Studies",
+              "is_compulsory": false,
+              "papers": []
+            },
+            {
+              "name": "গার্হস্থ্য বিজ্ঞান",
+              "name_en": "Home Science",
+              "is_compulsory": false,
+              "papers": []
+            }
+          ]
+        },
+        {
+          "id": "sec_cls-10-business",
+          "name": "ব্যবসায় শিক্ষা",
+          "name_en": "Business Studies",
+          "stream_key": "business",
+          "subjects": [
+            {
+              "name": "বাংলা",
+              "name_en": "Bangla",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "ইংরেজি",
+              "name_en": "English",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "গণিত",
+              "name_en": "Mathematics",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "তথ্য ও যোগাযোগ প্রযুক্তি",
+              "name_en": "ICT",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "বাংলাদেশ ও বিশ্বপরিচয়",
+              "name_en": "Bangladesh & Global Studies",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "ধর্ম ও নৈতিক শিক্ষা",
+              "name_en": "Religious & Moral Education",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "হিসাববিজ্ঞান",
+              "name_en": "Accounting",
+              "is_compulsory": false,
+              "papers": []
+            },
+            {
+              "name": "ব্যবসায় উদ্যোগ",
+              "name_en": "Business Entrepreneurship",
+              "is_compulsory": false,
+              "papers": []
+            },
+            {
+              "name": "ফিন্যান্স ও ব্যাংকিং",
+              "name_en": "Finance & Banking",
+              "is_compulsory": false,
+              "papers": []
+            },
+            {
+              "name": "কৃষিশিক্ষা",
+              "name_en": "Agricultural Studies",
+              "is_compulsory": false,
+              "papers": []
+            },
+            {
+              "name": "গার্হস্থ্য বিজ্ঞান",
+              "name_en": "Home Science",
+              "is_compulsory": false,
+              "papers": []
+            }
+          ]
+        }
+      ],
+      "subjects": []
+    },
+    {
+      "id": "cls_11",
+      "name": "একাদশ শ্রেণি",
+      "name_en": "Class 11",
+      "level": "HSC",
+      "order": 6,
+      "sections": [
+        {
+          "id": "sec_cls-11-science",
+          "name": "বিজ্ঞান",
+          "name_en": "Science",
+          "stream_key": "science",
+          "subjects": [
+            {
+              "name": "বাংলা",
+              "name_en": "Bangla",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "ইংরেজি",
+              "name_en": "English",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "তথ্য ও যোগাযোগ প্রযুক্তি",
+              "name_en": "ICT",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "পদার্থবিজ্ঞান",
+              "name_en": "Physics",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_physics-1",
+                  "name": "পদার্থবিজ্ঞান ১ম পত্র",
+                  "name_en": "Physics 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_physics-2",
+                  "name": "পদার্থবিজ্ঞান ২য় পত্র",
+                  "name_en": "Physics 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            },
+            {
+              "name": "রসায়ন",
+              "name_en": "Chemistry",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_chemistry-1",
+                  "name": "রসায়ন ১ম পত্র",
+                  "name_en": "Chemistry 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_chemistry-2",
+                  "name": "রসায়ন ২য় পত্র",
+                  "name_en": "Chemistry 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            },
+            {
+              "name": "জীববিজ্ঞান",
+              "name_en": "Biology",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_biology-1",
+                  "name": "জীববিজ্ঞান ১ম পত্র",
+                  "name_en": "Biology 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_biology-2",
+                  "name": "জীববিজ্ঞান ২য় পত্র",
+                  "name_en": "Biology 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            },
+            {
+              "name": "উচ্চতর গণিত",
+              "name_en": "Higher Mathematics",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_higher-mathematics-1",
+                  "name": "উচ্চতর গণিত ১ম পত্র",
+                  "name_en": "Higher Mathematics 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_higher-mathematics-2",
+                  "name": "উচ্চতর গণিত ২য় পত্র",
+                  "name_en": "Higher Mathematics 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sec_cls-11-humanities",
+          "name": "মানবিক",
+          "name_en": "Humanities",
+          "stream_key": "humanities",
+          "subjects": [
+            {
+              "name": "বাংলা",
+              "name_en": "Bangla",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "ইংরেজি",
+              "name_en": "English",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "তথ্য ও যোগাযোগ প্রযুক্তি",
+              "name_en": "ICT",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "পৌরনীতি ও সুশাসন",
+              "name_en": "Civics & Good Governance",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_civics-good-governance-1",
+                  "name": "পৌরনীতি ও সুশাসন ১ম পত্র",
+                  "name_en": "Civics & Good Governance 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_civics-good-governance-2",
+                  "name": "পৌরনীতি ও সুশাসন ২য় পত্র",
+                  "name_en": "Civics & Good Governance 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            },
+            {
+              "name": "অর্থনীতি",
+              "name_en": "Economics",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_economics-1",
+                  "name": "অর্থনীতি ১ম পত্র",
+                  "name_en": "Economics 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_economics-2",
+                  "name": "অর্থনীতি ২য় পত্র",
+                  "name_en": "Economics 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            },
+            {
+              "name": "যুক্তিবিদ্যা",
+              "name_en": "Logic",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_logic-1",
+                  "name": "যুক্তিবিদ্যা ১ম পত্র",
+                  "name_en": "Logic 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_logic-2",
+                  "name": "যুক্তিবিদ্যা ২য় পত্র",
+                  "name_en": "Logic 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            },
+            {
+              "name": "সমাজবিজ্ঞান",
+              "name_en": "Sociology",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_sociology-1",
+                  "name": "সমাজবিজ্ঞান ১ম পত্র",
+                  "name_en": "Sociology 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_sociology-2",
+                  "name": "সমাজবিজ্ঞান ২য় পত্র",
+                  "name_en": "Sociology 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            },
+            {
+              "name": "সমাজকর্ম",
+              "name_en": "Social Work",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_social-work-1",
+                  "name": "সমাজকর্ম ১ম পত্র",
+                  "name_en": "Social Work 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_social-work-2",
+                  "name": "সমাজকর্ম ২য় পত্র",
+                  "name_en": "Social Work 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            },
+            {
+              "name": "ভূগোল",
+              "name_en": "Geography",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_geography-1",
+                  "name": "ভূগোল ১ম পত্র",
+                  "name_en": "Geography 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_geography-2",
+                  "name": "ভূগোল ২য় পত্র",
+                  "name_en": "Geography 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            },
+            {
+              "name": "ইসলামের ইতিহাস ও সংস্কৃতি",
+              "name_en": "History of Islam & Culture",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_history-of-islam-culture-1",
+                  "name": "ইসলামের ইতিহাস ও সংস্কৃতি ১ম পত্র",
+                  "name_en": "History of Islam & Culture 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_history-of-islam-culture-2",
+                  "name": "ইসলামের ইতিহাস ও সংস্কৃতি ২য় পত্র",
+                  "name_en": "History of Islam & Culture 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            },
+            {
+              "name": "মনোবিজ্ঞান",
+              "name_en": "Psychology",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_psychology-1",
+                  "name": "মনোবিজ্ঞান ১ম পত্র",
+                  "name_en": "Psychology 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_psychology-2",
+                  "name": "মনোবিজ্ঞান ২য় পত্র",
+                  "name_en": "Psychology 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            },
+            {
+              "name": "ইসলাম শিক্ষা",
+              "name_en": "Islamic Studies",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_islamic-studies-1",
+                  "name": "ইসলাম শিক্ষা ১ম পত্র",
+                  "name_en": "Islamic Studies 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_islamic-studies-2",
+                  "name": "ইসলাম শিক্ষা ২য় পত্র",
+                  "name_en": "Islamic Studies 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sec_cls-11-business",
+          "name": "ব্যবসায় শিক্ষা",
+          "name_en": "Business Studies",
+          "stream_key": "business",
+          "subjects": [
+            {
+              "name": "বাংলা",
+              "name_en": "Bangla",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "ইংরেজি",
+              "name_en": "English",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "তথ্য ও যোগাযোগ প্রযুক্তি",
+              "name_en": "ICT",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "হিসাববিজ্ঞান",
+              "name_en": "Accounting",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_accounting-1",
+                  "name": "হিসাববিজ্ঞান ১ম পত্র",
+                  "name_en": "Accounting 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_accounting-2",
+                  "name": "হিসাববিজ্ঞান ২য় পত্র",
+                  "name_en": "Accounting 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            },
+            {
+              "name": "ব্যবসায় সংগঠন ও ব্যবস্থাপনা",
+              "name_en": "Business Organization & Management",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_business-organization-management-1",
+                  "name": "ব্যবসায় সংগঠন ও ব্যবস্থাপনা ১ম পত্র",
+                  "name_en": "Business Organization & Management 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_business-organization-management-2",
+                  "name": "ব্যবসায় সংগঠন ও ব্যবস্থাপনা ২য় পত্র",
+                  "name_en": "Business Organization & Management 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            },
+            {
+              "name": "ফিন্যান্স, ব্যাংকিং ও বিমা",
+              "name_en": "Finance, Banking & Insurance",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_finance-banking-insurance-1",
+                  "name": "ফিন্যান্স, ব্যাংকিং ও বিমা ১ম পত্র",
+                  "name_en": "Finance, Banking & Insurance 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_finance-banking-insurance-2",
+                  "name": "ফিন্যান্স, ব্যাংকিং ও বিমা ২য় পত্র",
+                  "name_en": "Finance, Banking & Insurance 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            },
+            {
+              "name": "উৎপাদন ব্যবস্থাপনা ও বিপণন",
+              "name_en": "Production Management & Marketing",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_production-management-marketing-1",
+                  "name": "উৎপাদন ব্যবস্থাপনা ও বিপণন ১ম পত্র",
+                  "name_en": "Production Management & Marketing 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_production-management-marketing-2",
+                  "name": "উৎপাদন ব্যবস্থাপনা ও বিপণন ২য় পত্র",
+                  "name_en": "Production Management & Marketing 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            },
+            {
+              "name": "অর্থনীতি",
+              "name_en": "Economics",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_economics-1",
+                  "name": "অর্থনীতি ১ম পত্র",
+                  "name_en": "Economics 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_economics-2",
+                  "name": "অর্থনীতি ২য় পত্র",
+                  "name_en": "Economics 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "subjects": []
+    },
+    {
+      "id": "cls_12",
+      "name": "দ্বাদশ শ্রেণি",
+      "name_en": "Class 12",
+      "level": "HSC",
+      "order": 7,
+      "sections": [
+        {
+          "id": "sec_cls-12-science",
+          "name": "বিজ্ঞান",
+          "name_en": "Science",
+          "stream_key": "science",
+          "subjects": [
+            {
+              "name": "বাংলা",
+              "name_en": "Bangla",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "ইংরেজি",
+              "name_en": "English",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "তথ্য ও যোগাযোগ প্রযুক্তি",
+              "name_en": "ICT",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "পদার্থবিজ্ঞান",
+              "name_en": "Physics",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_physics-1",
+                  "name": "পদার্থবিজ্ঞান ১ম পত্র",
+                  "name_en": "Physics 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_physics-2",
+                  "name": "পদার্থবিজ্ঞান ২য় পত্র",
+                  "name_en": "Physics 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            },
+            {
+              "name": "রসায়ন",
+              "name_en": "Chemistry",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_chemistry-1",
+                  "name": "রসায়ন ১ম পত্র",
+                  "name_en": "Chemistry 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_chemistry-2",
+                  "name": "রসায়ন ২য় পত্র",
+                  "name_en": "Chemistry 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            },
+            {
+              "name": "জীববিজ্ঞান",
+              "name_en": "Biology",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_biology-1",
+                  "name": "জীববিজ্ঞান ১ম পত্র",
+                  "name_en": "Biology 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_biology-2",
+                  "name": "জীববিজ্ঞান ২য় পত্র",
+                  "name_en": "Biology 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            },
+            {
+              "name": "উচ্চতর গণিত",
+              "name_en": "Higher Mathematics",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_higher-mathematics-1",
+                  "name": "উচ্চতর গণিত ১ম পত্র",
+                  "name_en": "Higher Mathematics 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_higher-mathematics-2",
+                  "name": "উচ্চতর গণিত ২য় পত্র",
+                  "name_en": "Higher Mathematics 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sec_cls-12-humanities",
+          "name": "মানবিক",
+          "name_en": "Humanities",
+          "stream_key": "humanities",
+          "subjects": [
+            {
+              "name": "বাংলা",
+              "name_en": "Bangla",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "ইংরেজি",
+              "name_en": "English",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "তথ্য ও যোগাযোগ প্রযুক্তি",
+              "name_en": "ICT",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "পৌরনীতি ও সুশাসন",
+              "name_en": "Civics & Good Governance",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_civics-good-governance-1",
+                  "name": "পৌরনীতি ও সুশাসন ১ম পত্র",
+                  "name_en": "Civics & Good Governance 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_civics-good-governance-2",
+                  "name": "পৌরনীতি ও সুশাসন ২য় পত্র",
+                  "name_en": "Civics & Good Governance 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            },
+            {
+              "name": "অর্থনীতি",
+              "name_en": "Economics",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_economics-1",
+                  "name": "অর্থনীতি ১ম পত্র",
+                  "name_en": "Economics 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_economics-2",
+                  "name": "অর্থনীতি ২য় পত্র",
+                  "name_en": "Economics 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            },
+            {
+              "name": "যুক্তিবিদ্যা",
+              "name_en": "Logic",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_logic-1",
+                  "name": "যুক্তিবিদ্যা ১ম পত্র",
+                  "name_en": "Logic 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_logic-2",
+                  "name": "যুক্তিবিদ্যা ২য় পত্র",
+                  "name_en": "Logic 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            },
+            {
+              "name": "সমাজবিজ্ঞান",
+              "name_en": "Sociology",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_sociology-1",
+                  "name": "সমাজবিজ্ঞান ১ম পত্র",
+                  "name_en": "Sociology 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_sociology-2",
+                  "name": "সমাজবিজ্ঞান ২য় পত্র",
+                  "name_en": "Sociology 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            },
+            {
+              "name": "সমাজকর্ম",
+              "name_en": "Social Work",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_social-work-1",
+                  "name": "সমাজকর্ম ১ম পত্র",
+                  "name_en": "Social Work 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_social-work-2",
+                  "name": "সমাজকর্ম ২য় পত্র",
+                  "name_en": "Social Work 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            },
+            {
+              "name": "ভূগোল",
+              "name_en": "Geography",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_geography-1",
+                  "name": "ভূগোল ১ম পত্র",
+                  "name_en": "Geography 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_geography-2",
+                  "name": "ভূগোল ২য় পত্র",
+                  "name_en": "Geography 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            },
+            {
+              "name": "ইসলামের ইতিহাস ও সংস্কৃতি",
+              "name_en": "History of Islam & Culture",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_history-of-islam-culture-1",
+                  "name": "ইসলামের ইতিহাস ও সংস্কৃতি ১ম পত্র",
+                  "name_en": "History of Islam & Culture 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_history-of-islam-culture-2",
+                  "name": "ইসলামের ইতিহাস ও সংস্কৃতি ২য় পত্র",
+                  "name_en": "History of Islam & Culture 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            },
+            {
+              "name": "মনোবিজ্ঞান",
+              "name_en": "Psychology",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_psychology-1",
+                  "name": "মনোবিজ্ঞান ১ম পত্র",
+                  "name_en": "Psychology 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_psychology-2",
+                  "name": "মনোবিজ্ঞান ২য় পত্র",
+                  "name_en": "Psychology 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            },
+            {
+              "name": "ইসলাম শিক্ষা",
+              "name_en": "Islamic Studies",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_islamic-studies-1",
+                  "name": "ইসলাম শিক্ষা ১ম পত্র",
+                  "name_en": "Islamic Studies 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_islamic-studies-2",
+                  "name": "ইসলাম শিক্ষা ২য় পত্র",
+                  "name_en": "Islamic Studies 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sec_cls-12-business",
+          "name": "ব্যবসায় শিক্ষা",
+          "name_en": "Business Studies",
+          "stream_key": "business",
+          "subjects": [
+            {
+              "name": "বাংলা",
+              "name_en": "Bangla",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "ইংরেজি",
+              "name_en": "English",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "তথ্য ও যোগাযোগ প্রযুক্তি",
+              "name_en": "ICT",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "হিসাববিজ্ঞান",
+              "name_en": "Accounting",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_accounting-1",
+                  "name": "হিসাববিজ্ঞান ১ম পত্র",
+                  "name_en": "Accounting 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_accounting-2",
+                  "name": "হিসাববিজ্ঞান ২য় পত্র",
+                  "name_en": "Accounting 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            },
+            {
+              "name": "ব্যবসায় সংগঠন ও ব্যবস্থাপনা",
+              "name_en": "Business Organization & Management",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_business-organization-management-1",
+                  "name": "ব্যবসায় সংগঠন ও ব্যবস্থাপনা ১ম পত্র",
+                  "name_en": "Business Organization & Management 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_business-organization-management-2",
+                  "name": "ব্যবসায় সংগঠন ও ব্যবস্থাপনা ২য় পত্র",
+                  "name_en": "Business Organization & Management 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            },
+            {
+              "name": "ফিন্যান্স, ব্যাংকিং ও বিমা",
+              "name_en": "Finance, Banking & Insurance",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_finance-banking-insurance-1",
+                  "name": "ফিন্যান্স, ব্যাংকিং ও বিমা ১ম পত্র",
+                  "name_en": "Finance, Banking & Insurance 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_finance-banking-insurance-2",
+                  "name": "ফিন্যান্স, ব্যাংকিং ও বিমা ২য় পত্র",
+                  "name_en": "Finance, Banking & Insurance 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            },
+            {
+              "name": "উৎপাদন ব্যবস্থাপনা ও বিপণন",
+              "name_en": "Production Management & Marketing",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_production-management-marketing-1",
+                  "name": "উৎপাদন ব্যবস্থাপনা ও বিপণন ১ম পত্র",
+                  "name_en": "Production Management & Marketing 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_production-management-marketing-2",
+                  "name": "উৎপাদন ব্যবস্থাপনা ও বিপণন ২য় পত্র",
+                  "name_en": "Production Management & Marketing 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            },
+            {
+              "name": "অর্থনীতি",
+              "name_en": "Economics",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_economics-1",
+                  "name": "অর্থনীতি ১ম পত্র",
+                  "name_en": "Economics 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_economics-2",
+                  "name": "অর্থনীতি ২য় পত্র",
+                  "name_en": "Economics 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "subjects": []
+    },
+    {
+      "id": "cls_dakhil_alim",
+      "name": "মাদ্রাসা (দাখিল ও আলিম)",
+      "name_en": "Madrasah (Dakhil & Alim)",
+      "level": "Madrasah",
+      "order": 13,
+      "subjects": [],
+      "sections": [
+        {
+          "id": "sec_dakhil",
+          "name": "দাখিল",
+          "name_en": "Dakhil",
+          "stream_key": "dakhil",
+          "subjects": [
+            {
+              "name": "কুরআন মাজীদ ও তাজভিদ",
+              "name_en": "Quran & Tajweed",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "আরবি ভাষা ও সাহিত্য",
+              "name_en": "Arabic Language & Literature",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "হাদিস ও উসুলুল হাদিস",
+              "name_en": "Hadith & Usul al-Hadith",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "আকাইদ ও ফিকহ",
+              "name_en": "Aqaid & Fiqh",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "বাংলা",
+              "name_en": "Bangla",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "ইংরেজি",
+              "name_en": "English",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "গণিত",
+              "name_en": "Mathematics",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "বিজ্ঞান",
+              "name_en": "Science",
+              "is_compulsory": true,
+              "papers": []
+            }
+          ]
+        },
+        {
+          "id": "sec_alim",
+          "name": "আলিম",
+          "name_en": "Alim",
+          "stream_key": "alim",
+          "subjects": [
+            {
+              "name": "কুরআন মাজীদ ও তাজভিদ",
+              "name_en": "Quran & Tajweed",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_quran-tajweed-1",
+                  "name": "কুরআন মাজীদ ও তাজভিদ ১ম পত্র",
+                  "name_en": "Quran & Tajweed 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_quran-tajweed-2",
+                  "name": "কুরআন মাজীদ ও তাজভিদ ২য় পত্র",
+                  "name_en": "Quran & Tajweed 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            },
+            {
+              "name": "হাদিস ও উসুলুল হাদিস",
+              "name_en": "Hadith & Usul al-Hadith",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_hadith-usul-al-hadith-1",
+                  "name": "হাদিস ও উসুলুল হাদিস ১ম পত্র",
+                  "name_en": "Hadith & Usul al-Hadith 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_hadith-usul-al-hadith-2",
+                  "name": "হাদিস ও উসুলুল হাদিস ২য় পত্র",
+                  "name_en": "Hadith & Usul al-Hadith 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            },
+            {
+              "name": "ফিকহ ও উসুলুল ফিকহ",
+              "name_en": "Fiqh & Usul al-Fiqh",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_fiqh-usul-al-fiqh-1",
+                  "name": "ফিকহ ও উসুলুল ফিকহ ১ম পত্র",
+                  "name_en": "Fiqh & Usul al-Fiqh 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_fiqh-usul-al-fiqh-2",
+                  "name": "ফিকহ ও উসুলুল ফিকহ ২য় পত্র",
+                  "name_en": "Fiqh & Usul al-Fiqh 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            },
+            {
+              "name": "আরবি সাহিত্য",
+              "name_en": "Arabic Literature",
+              "is_compulsory": true,
+              "papers": [
+                {
+                  "id": "paper_arabic-literature-1",
+                  "name": "আরবি সাহিত্য ১ম পত্র",
+                  "name_en": "Arabic Literature 1st Paper",
+                  "paper_no": 1
+                },
+                {
+                  "id": "paper_arabic-literature-2",
+                  "name": "আরবি সাহিত্য ২য় পত্র",
+                  "name_en": "Arabic Literature 2nd Paper",
+                  "paper_no": 2
+                }
+              ]
+            },
+            {
+              "name": "বাংলা",
+              "name_en": "Bangla",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "ইংরেজি",
+              "name_en": "English",
+              "is_compulsory": true,
+              "papers": []
+            },
+            {
+              "name": "তথ্য ও যোগাযোগ প্রযুক্তি",
+              "name_en": "ICT",
+              "is_compulsory": true,
+              "papers": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cls_vocational",
+      "name": "কারিগরি ও ভোকেশনাল",
+      "name_en": "Technical & Vocational",
+      "level": "Technical",
+      "order": 14,
+      "subjects": [],
+      "sections": [
+        {
+          "id": "sec_voc_trades",
+          "name": "ট্রেড / ভোকেশনাল",
+          "name_en": "Trade / Vocational",
+          "stream_key": "trades",
+          "subjects": [
+            {
+              "name": "ইলেকট্রিক্যাল ওয়ার্ক",
+              "name_en": "Electrical Work",
+              "is_compulsory": false,
+              "papers": []
+            },
+            {
+              "name": "ইলেকট্রনিক্স",
+              "name_en": "Electronics",
+              "is_compulsory": false,
+              "papers": []
+            },
+            {
+              "name": "মোটর মেকানিক্স",
+              "name_en": "Motor Mechanics",
+              "is_compulsory": false,
+              "papers": []
+            },
+            {
+              "name": "কম্পিউটার ও আইটি",
+              "name_en": "Computer & IT",
+              "is_compulsory": false,
+              "papers": []
+            },
+            {
+              "name": "ফিশারিজ",
+              "name_en": "Fisheries",
+              "is_compulsory": false,
+              "papers": []
+            },
+            {
+              "name": "কৃষি (ভোকেশনাল)",
+              "name_en": "Agriculture (Vocational)",
+              "is_compulsory": false,
+              "papers": []
+            },
+            {
+              "name": "বিল্ডিং কনস্ট্রাকশন",
+              "name_en": "Building Construction",
+              "is_compulsory": false,
+              "papers": []
+            },
+            {
+              "name": "আপ্যারেল / টেইলরিং",
+              "name_en": "Apparel / Tailoring",
+              "is_compulsory": false,
+              "papers": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "job_categories": [
+    {
+      "id": "job_bcs",
+      "name": "বিসিএস প্রস্তুতি",
+      "name_en": "BCS Preparation",
+      "level": "Job Preparation",
+      "order": 20,
+      "subjects": [],
+      "sections": [
+        {
+          "id": "sec_job-bcs-main",
+          "name": "বিষয়সমূহ",
+          "name_en": "Subjects",
+          "stream_key": "job",
+          "subjects": [
+            {
+              "name": "বাংলা ভাষা ও সাহিত্য",
+              "name_en": "Bangla Language & Literature",
+              "is_compulsory": false,
+              "papers": [],
+              "topics": [
+                "ব্যাকরণ",
+                "চিরায়ত সাহিত্য",
+                "আধুনিক সাহিত্য"
+              ]
+            },
+            {
+              "name": "ইংরেজি ভাষা ও সাহিত্য",
+              "name_en": "English Language & Literature",
+              "is_compulsory": false,
+              "papers": [],
+              "topics": [
+                "Grammar",
+                "Vocabulary",
+                "Comprehension",
+                "Literary History"
+              ]
+            },
+            {
+              "name": "বাংলাদেশ বিষয়াবলী",
+              "name_en": "Bangladesh Affairs",
+              "is_compulsory": false,
+              "papers": [],
+              "topics": [
+                "ইতিহাস",
+                "মুক্তিযুদ্ধ",
+                "সংবিধান",
+                "অর্থনীতি",
+                "ভূগোল",
+                "সরকারি নীতি"
+              ]
+            },
+            {
+              "name": "আন্তর্জাতিক বিষয়াবলী",
+              "name_en": "International Affairs",
+              "is_compulsory": false,
+              "papers": [],
+              "topics": [
+                "বিশ্ব রাজনীতি",
+                "আন্তর্জাতিক সংস্থা",
+                "চুক্তি",
+                "সাম্প্রতিক বৈশ্বিক ঘটনাপ্রবাহ"
+              ]
+            },
+            {
+              "name": "ভূগোল, পরিবেশ ও দুর্যোগ ব্যবস্থাপনা",
+              "name_en": "Geography, Environment & Disaster Management",
+              "is_compulsory": false,
+              "papers": [],
+              "topics": [
+                "ভৌত ভূগোল",
+                "জলবায়ু পরিবর্তন",
+                "প্রাকৃতিক দুর্যোগ"
+              ]
+            },
+            {
+              "name": "সাধারণ বিজ্ঞান",
+              "name_en": "General Science",
+              "is_compulsory": false,
+              "papers": [],
+              "topics": [
+                "ভৌত বিজ্ঞান",
+                "জীব বিজ্ঞান",
+                "ভূ-বিজ্ঞান ও মহাকাশ"
+              ]
+            },
+            {
+              "name": "কম্পিউটার ও তথ্যপ্রযুক্তি",
+              "name_en": "Computer & Information Technology",
+              "is_compulsory": false,
+              "papers": [],
+              "topics": [
+                "হার্ডওয়্যার/সফটওয়্যার",
+                "নেটওয়ার্কিং",
+                "সাইবার সিকিউরিটি",
+                "টেক ট্রেন্ড"
+              ]
+            },
+            {
+              "name": "গাণিতিক যুক্তি",
+              "name_en": "Mathematical Reasoning",
+              "is_compulsory": false,
+              "papers": [],
+              "topics": [
+                "পাটিগণিত",
+                "বীজগণিত",
+                "জ্যামিতি",
+                "পরিসংখ্যান",
+                "মানসিক গণনা"
+              ]
+            },
+            {
+              "name": "মানসিক দক্ষতা",
+              "name_en": "Mental Ability",
+              "is_compulsory": false,
+              "papers": [],
+              "topics": [
+                "স্থানিক যুক্তি",
+                "নিগমিত যুক্তি",
+                "সাংখ্যিক দক্ষতা",
+                "মৌখিক যুক্তি"
+              ]
+            },
+            {
+              "name": "নৈতিকতা, মূল্যবোধ ও সুশাসন",
+              "name_en": "Ethics, Values & Good Governance",
+              "is_compulsory": false,
+              "papers": [],
+              "topics": [
+                "নৈতিকতা",
+                "সুশাসন",
+                "সামাজিক মূল্যবোধ"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "job_bank",
+      "name": "ব্যাংক চাকরি প্রস্তুতি",
+      "name_en": "Bank Job Preparation",
+      "level": "Job Preparation",
+      "order": 21,
+      "subjects": [],
+      "sections": [
+        {
+          "id": "sec_job-bank-main",
+          "name": "বিষয়সমূহ",
+          "name_en": "Subjects",
+          "stream_key": "job",
+          "subjects": [
+            {
+              "name": "গণিত ও কোয়ান্টিটেটিভ অ্যাপটিটিউড",
+              "name_en": "Mathematics & Quantitative Aptitude",
+              "is_compulsory": false,
+              "papers": [],
+              "topics": [
+                "পাটিগণিত",
+                "বীজগণিত",
+                "জ্যামিতি",
+                "ডেটা ইন্টারপ্রিটেশন",
+                "শর্টকাট টেকনিক"
+              ]
+            },
+            {
+              "name": "ইংরেজি ও অ্যানালিটিক্যাল রাইটিং",
+              "name_en": "English & Analytical Writing",
+              "is_compulsory": false,
+              "papers": [],
+              "topics": [
+                "Grammar",
+                "Analogy",
+                "Sentence Correction",
+                "Vocabulary",
+                "Comprehension"
+              ]
+            },
+            {
+              "name": "কম্পিউটার ও আইসিটি",
+              "name_en": "Computer & ICT Knowledge",
+              "is_compulsory": false,
+              "papers": [],
+              "topics": [
+                "ব্যাংকিং সফটওয়্যার",
+                "হার্ডওয়্যার",
+                "নেটওয়ার্ক",
+                "সাইবার সিকিউরিটি",
+                "মৌলিক ধারণা"
+              ]
+            },
+            {
+              "name": "সাধারণ জ্ঞান ও ব্যাংকিং জ্ঞান",
+              "name_en": "General Knowledge & Banking Awareness",
+              "is_compulsory": false,
+              "papers": [],
+              "topics": [
+                "ব্যাংকিং টার্ম",
+                "আর্থিক ব্যবস্থা",
+                "অর্থনীতি",
+                "বাংলাদেশ ও আন্তর্জাতিক বিষয়াবলী"
+              ]
+            },
+            {
+              "name": "অ্যানালিটিক্যাল মানসিক দক্ষতা",
+              "name_en": "Analytical Ability & Critical Reasoning",
+              "is_compulsory": false,
+              "papers": [],
+              "topics": [
+                "পাজল",
+                "লজিক",
+                "ডেটা সাফিসিয়েন্সি"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "job_primary",
+      "name": "প্রাইমারি শিক্ষক নিয়োগ প্রস্তুতি",
+      "name_en": "Primary Teacher Recruitment",
+      "level": "Job Preparation",
+      "order": 22,
+      "subjects": [],
+      "sections": [
+        {
+          "id": "sec_job-primary-main",
+          "name": "বিষয়সমূহ",
+          "name_en": "Subjects",
+          "stream_key": "job",
+          "subjects": [
+            {
+              "name": "বাংলা",
+              "name_en": "Bangla",
+              "is_compulsory": false,
+              "papers": [],
+              "topics": [
+                "কারক",
+                "সমাস",
+                "সন্ধি",
+                "বানান",
+                "সংক্ষিপ্ত সাহিত্যকর্ম"
+              ]
+            },
+            {
+              "name": "ইংরেজি",
+              "name_en": "English",
+              "is_compulsory": false,
+              "papers": [],
+              "topics": [
+                "Parts of Speech",
+                "Tense",
+                "Prepositions",
+                "Translation",
+                "Synonyms/Antonyms"
+              ]
+            },
+            {
+              "name": "গণিত",
+              "name_en": "Mathematics",
+              "is_compulsory": false,
+              "papers": [],
+              "topics": [
+                "শতকরা",
+                "লাভ-ক্ষতি",
+                "সুদকষা",
+                "গড়",
+                "প্রাথমিক বীজগণিত",
+                "প্রাথমিক জ্যামিতি"
+              ]
+            },
+            {
+              "name": "সাধারণ জ্ঞান ও সাম্প্রতিক বিষয়াবলী",
+              "name_en": "General Knowledge & Current Affairs",
+              "is_compulsory": false,
+              "papers": [],
+              "topics": [
+                "বাংলাদেশের ইতিহাস",
+                "মুক্তিযুদ্ধ",
+                "আইসিটি",
+                "সাধারণ বিজ্ঞান",
+                "বিশ্ব বিষয়াবলী"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "job_govt",
+      "name": "অন্যান্য সরকারি চাকরি (৯ম–২০তম গ্রেড)",
+      "name_en": "Other Government Jobs",
+      "level": "Job Preparation",
+      "order": 23,
+      "subjects": [],
+      "sections": [
+        {
+          "id": "sec_job-govt-main",
+          "name": "বিষয়সমূহ",
+          "name_en": "Subjects",
+          "stream_key": "job",
+          "subjects": [
+            {
+              "name": "বাংলা ব্যাকরণ ও সাহিত্য",
+              "name_en": "Bangla Grammar & Literature",
+              "is_compulsory": false,
+              "papers": [],
+              "topics": [
+                "ব্যাকরণ",
+                "সাহিত্য"
+              ]
+            },
+            {
+              "name": "ইংরেজি ব্যাকরণ ও শব্দভাণ্ডার",
+              "name_en": "English Grammar & Vocabulary",
+              "is_compulsory": false,
+              "papers": [],
+              "topics": [
+                "Grammar",
+                "Vocabulary"
+              ]
+            },
+            {
+              "name": "সাধারণ গণিত",
+              "name_en": "General Mathematics",
+              "is_compulsory": false,
+              "papers": [],
+              "topics": [
+                "পাটিগণিত",
+                "বীজগণিত",
+                "জ্যামিতি"
+              ]
+            },
+            {
+              "name": "সাধারণ জ্ঞান, তথ্যপ্রযুক্তি ও দৈনন্দিন বিজ্ঞান",
+              "name_en": "General Knowledge, ICT & Everyday Science",
+              "is_compulsory": false,
+              "papers": [],
+              "topics": [
+                "সাধারণ জ্ঞান",
+                "তথ্যপ্রযুক্তি",
+                "দৈনন্দিন বিজ্ঞান"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
