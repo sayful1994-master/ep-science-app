@@ -201,6 +201,7 @@ class _BooksAdminScreenState extends State<BooksAdminScreen> {
                     context,
                     '“${b.title}” মুছে ফেলতে চান?',
                   );
+                  if (!context.mounted) return;
                   if (ok) await data.deleteEbook(b.id);
                 },
                 icon: const Icon(
@@ -233,7 +234,7 @@ class _BooksAdminScreenState extends State<BooksAdminScreen> {
   }
 
   Future<bool> _confirm(BuildContext context, String msg) async {
-    return await showDialog<bool>(
+    final result = await showDialog<bool>(
           context: context,
           builder: (ctx) => AlertDialog(
             title: const Text('নিশ্চিত করুন'),
@@ -251,6 +252,7 @@ class _BooksAdminScreenState extends State<BooksAdminScreen> {
           ),
         ) ??
         false;
+    return result;
   }
 }
 
@@ -286,7 +288,7 @@ class _BookEditorState extends State<_BookEditor> {
     _description.text = b?.description ?? '';
     _url.text = b?.externalUrl ?? '';
     _pages.text = (b?.pages ?? 100).toString();
-    _price.text = '${b?.price.toStringAsFixed(0) ?? '0'}';
+    _price.text = b?.price.toStringAsFixed(0) ?? '0';
     categoryId = b?.categoryId;
     subCategoryId = b?.subCategoryId;
     subjectId = b?.subjectId;
@@ -590,6 +592,7 @@ class _BookEditorState extends State<_BookEditor> {
       createdAt: widget.existing?.createdAt,
     );
     await data.saveEbook(b);
-    if (mounted) Navigator.pop(context);
+    if (!mounted) return;
+    Navigator.pop(context);
   }
 }
